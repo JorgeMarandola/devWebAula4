@@ -3,7 +3,7 @@ body {
 }
 
 h2 {
-    color: goldenrod;
+    color: wheat;
 }
 p {
     color: red;
@@ -32,4 +32,12 @@ li a {
 
 li a:hover {
     background-color: #111;
+}
+
+.container { 
+    text-align: center; 
+    text-align: justify;
+    width: 850px; 
+    margin-left: auto;
+    margin-right: auto; 
 }
