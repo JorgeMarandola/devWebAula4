@@ -1,5 +1,5 @@
 body {
-    background-color: powderblue;
+    background-image: url(https://www.10wallpaper.com/wallpaper/1920x1080/1510/line_colorful_background-Design_HD_Wallpaper_1920x1080.jpg);
 }
 
 h1 {
@@ -19,6 +19,11 @@ ul {
 
 li {
     float: left;
+    border-right:1px solid #bbb;
+}
+
+li:last-child {
+    border-right: none;
 }
 
 li a {
@@ -29,6 +34,16 @@ li a {
     text-decoration: none;
 }
 
-li a:hover {
+li a:hover:not(.active) {
     background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
