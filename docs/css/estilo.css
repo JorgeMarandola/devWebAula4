@@ -20,7 +20,7 @@ ul {
 li {
     float: left;
     border-right:1px solid #bbb;
-    font-family: monospace;
+    /*font-family: monospace;*/
 }
 
 li:last-child {
