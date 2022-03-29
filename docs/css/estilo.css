@@ -1,5 +1,9 @@
 body {
+<<<<<<< HEAD
     background-image: href="imagens/backgorund.jpg"
+=======
+    background-color: powderblue;
+>>>>>>> parent of 52cbbfa (Modificando o background)
 }
 
 h1 {
@@ -19,12 +23,15 @@ ul {
 
 li {
     float: left;
+<<<<<<< HEAD
     border-right:1px solid #bbb;
     /*font-family: monospace;*/
 }
 
 li:last-child {
     border-right: none;
+=======
+>>>>>>> parent of 52cbbfa (Modificando o background)
 }
 
 li a {
@@ -35,16 +42,6 @@ li a {
     text-decoration: none;
 }
 
-li a:hover:not(.active) {
+li a:hover {
     background-color: #111;
-}
-
-.active {
-    background-color: #4CAF50;
-}
-
-ul {
-    position: fixed;
-    top: 0;
-    width: 100%;
 }
