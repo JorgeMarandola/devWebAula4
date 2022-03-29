@@ -1,5 +1,5 @@
 body {
-    background-image: url(https://www.10wallpaper.com/wallpaper/1920x1080/1510/line_colorful_background-Design_HD_Wallpaper_1920x1080.jpg);
+    background-image: href="imagens/background.jpg";
 }
 
 h1 {
@@ -27,6 +27,7 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-family: monospace;
 }
 
 li a:hover {
